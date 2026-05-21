@@ -1,8 +1,8 @@
 # Conclusiones
 
-Realizado este trabajo pude confirmar que es posible anticipar con un desempeño razonable la probabilidad de una parada en pits en la vuelta siguiente usando variables de contexto de carrera, estado de neumáticos y rendimiento de vuelta.
+Realizado este trabajo pude confirmar que es posible anticipar con un desempeño razonable la probabilidad de un monoplaza haga una parada en pits en la vuelta siguiente usando variables de contexto de carrera, estado de neumáticos y rendimiento de vuelta.
 
-El modelo con mejor equilibrio se seleccionó usando F1-score, porque la clase positiva (`PitNextLap = 1`) es la más importante para la toma de decisiones estratégicas. En este problema, no basta con acertar muchas vueltas sin parada: lo valioso es detectar correctamente cuándo la parada se acerca.
+El modelo con mejor equilibrio se seleccionó usando F1-score, porque la clase positiva (`PitNextLap = 1`) es a mi parecer la más importante para la toma de decisiones estratégicas. En este problema, no basta con acertar muchas vueltas sin parada: lo valioso es detectar correctamente cuándo la parada se acerca.
 
 Desde el análisis no supervisado, los clusters separan vueltas tempranas, vueltas avanzadas con neumáticos usados y vueltas de rendimiento intermedio. Esto aporta una lectura estratégica adicional, porque permite describir perfiles de carrera sin depender de una etiqueta previa.
 
